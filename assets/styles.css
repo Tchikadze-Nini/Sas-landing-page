@@ -1,47 +1,92 @@
-*{
-box-sizing: border-box;
-margin: 0%;
-padding: 0%;
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
 }
 
-.header{
-    position: center;
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 87px;
-    text-align: center;
-    letter-spacing: -0.02em;
-    color: #212529;
-    margin-bottom: 15px;
+.header {
+  position: center;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #212529;
+  margin-bottom: 15px;
 }
 
-.picture{
-
+.picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.recent-posts{
-    padding: 0 90px;
+.recent-posts {
+  padding: 0 90px;
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+
+#article {
+  background-color: rgba(79, 156, 249, 1);
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.recent_posts_card img {
+  position: relative;
+  margin: 15px 0 0 15px;
+  object-fit: cover;
+}
+
+.recent-posts h3 {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #01252a;
+  margin: 15px 40px 50px;
+}
+
+.footer {
+  background: rgba(4, 56, 115, 1);
+  padding: 5px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#article h3 {
+  color: rgba(255, 255, 255, 1);
+}
+
+.jessie {
+  margin: 10px 0 30px 12px;
+}
+
+.circles{
     display: flex;
-    gap: 32px;
+    align-items: center;
     justify-content: center;
 }
-
-.recent_posts_card img{
-    margin-bottom: 35px;
-    object-fit: cover ;
+.arrow{
+    position:relative;
+    right: 6.5vw;
+    bottom: 9vh;
 }
 
-.recent-posts h3{
-    font-size: 18px;
-    line-height: 30px;
-    letter-spacing: -0.02em;
-    color: #01252A;
-    margin-bottom: 15px;
+.span_1{
+    margin: 250px 0 0 0;
 }
 
-.footer{
-    background: rgba(4, 56, 115, 1);
-    padding: 5px 30px;
-    display: flex;
-    justify-content: space-between;
+.social_media{
+    margin: 250px 0 0 0;
+}
+
+footer_{
+    margin: 250px 0 0 0;
 }

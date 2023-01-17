@@ -1,0 +1,47 @@
+*{
+box-sizing: border-box;
+margin: 0%;
+padding: 0%;
+}
+
+.header{
+    position: center;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #212529;
+    margin-bottom: 15px;
+}
+
+.picture{
+
+}
+
+.recent-posts{
+    padding: 0 90px;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.recent_posts_card img{
+    margin-bottom: 35px;
+    object-fit: cover ;
+}
+
+.recent-posts h3{
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #01252A;
+    margin-bottom: 15px;
+}
+
+.footer{
+    background: rgba(4, 56, 115, 1);
+    padding: 5px 30px;
+    display: flex;
+    justify-content: space-between;
+}
